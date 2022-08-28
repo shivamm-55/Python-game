@@ -1,11 +1,11 @@
-#                                 Welcome to DataFlair Hangman Game:
+#                                 Welcome Hangman Game:
 
 
 import random
 import time
 
 # Initial Steps to invite in the game:
-print("\nWelcome to Hangman game by DataFlair\n")
+print("\nWelcome to Hangman game\n")
 name = input("Enter your name: ")
 print("Hello " + name + "! Best of Luck!")
 time.sleep(2)
@@ -21,7 +21,7 @@ def main():
     global already_guessed
     global length
     global play_game
-    words_to_guess = ["january","border","image","film","promise","kids","lungs","doll","rhyme","damage"
+    words_to_guess = ["insights","border","image","film","promise","kids","lungs","doll","rhyme","damage"
                    ,"plants"]
     word = random.choice(words_to_guess)
     length = len(word)
